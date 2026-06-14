@@ -34,9 +34,10 @@
     <text x="170" y="256" fill="#AFC3E0" font-size="15" text-anchor="middle">HTML / Tailwind · EN + Urdu</text>
     <text x="170" y="278" fill="#7FA8D8" font-size="13" text-anchor="middle">household profile · verdict · chat</text>
 
-    <rect x="40" y="320" width="260" height="100" rx="16" fill="#16233F" stroke="#2E4A78" stroke-width="2"/>
-    <text x="170" y="362" fill="#FFFFFF" font-size="22" font-weight="bold" text-anchor="middle">Telegram Bot</text>
-    <text x="170" y="392" fill="#AFC3E0" font-size="15" text-anchor="middle">daily plan · works on any phone</text>
+    <rect x="40" y="320" width="260" height="100" rx="16" fill="#16233F" stroke="#2E4A78" stroke-width="2" stroke-dasharray="6 5"/>
+    <text x="170" y="354" fill="#7FA8D8" font-size="14" font-style="italic" text-anchor="middle">Roadmap</text>
+    <text x="170" y="378" fill="#FFFFFF" font-size="18" font-weight="bold" text-anchor="middle">WhatsApp / SMS</text>
+    <text x="170" y="402" fill="#AFC3E0" font-size="13" text-anchor="middle">any phone, no app needed</text>
   </g>
 
   <!-- BACKEND API -->
