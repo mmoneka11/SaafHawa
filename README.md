@@ -187,8 +187,6 @@ saafhawa/
 │
 ├── assets/                 # Architecture diagrams, thumbnails, deck source
 ├── SaafHawa_Pitch.pptx     # 7-slide pitch deck (speaker notes included)
-├── SUBMISSION.md           # Paste-ready Devpost text
-├── DEPLOY.md               # Local-run + ngrok guide
 └── README.md
 ```
  
