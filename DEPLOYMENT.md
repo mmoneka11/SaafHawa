@@ -1,6 +1,14 @@
 # 🚀 SaafHawa — Deployment Guide
 
-> Complete step-by-step guide to deploy the backend on Railway and frontend on GitHub Pages.
+> Complete step-by-step guide to deploy the backend on Railway and frontend on GitHub Pages. Both pieces deploy on free tiers.
+
+```
+GitHub repo  ─┬──→  Github Pages / Vercel (frontend, static)  
+              └──→  Railway / Hugging Face Spaces (backend, FastAPI)
+                              ↓
+                              WAQI · Groq · SQLite cache
+```
+
 
 ---
 
@@ -18,8 +26,20 @@
 
 ---
 
-## Part 1 — Fork the Repository
+## Part 1 — Push to GitHub (one-time)
+/ Fork the Repository
 
+Push:
+```bash
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/<you>/saafhawa.git
+git push -u origin main
+```
+
+Fork:
 1. Go to 👉 https://github.com/mmoneka11/SaafHawa
 2. Click **"Fork"** (top right)
 3. Your fork will be at: `github.com/YOUR_USERNAME/SaafHawa`
@@ -199,14 +219,25 @@ https://YOUR_USERNAME.github.io/SaafHawa/frontend/
 | Verify frontend loads at GitHub Pages URL | ⬜ |
 
 ---
+## Cost summary — total $0
 
+| Service | Free tier | Card needed |
+|---|---|---|
+| GitHub | unlimited public repos | no |
+| Vercel | 100 GB / mo bandwidth | no |
+| Hugging Face Spaces | always-on CPU Space | **no** |
+| Render free | 750 hrs/mo (sleeps idle) | no |
+| WAQI API | 1000 req/min | no |
+| Groq free tier | generous daily token budget | no |
+
+---
 ## 🔗 Live URLs (fill in after deployment)
 
 | | URL |
 |---|---|
-| 🌐 Frontend | `https://YOUR_USERNAME.github.io/SaafHawa/frontend/` |
-| ⚙️ Backend | `https://your-app.up.railway.app` |
-| 📖 API Docs | `https://your-app.up.railway.app/docs` |
+| 🌐 Frontend | `https://vikraamkumar-ds.github.io/SaafHawa/` |
+| ⚙️ Backend | `https://saafhawa-production-648b.up.railway.app/` |
+| 📖 API Docs | `https://saafhawa-production-648b.up.railway.app/docs` |
 
 ---
 
